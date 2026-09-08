@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${COGNITO_ISSUER_URI}
+
+urban-kicks:
+  services:
+    catalog: ${CATALOG_URL:http://localhost:8082}
+    orders: ${ORDERS_URL:http://localhost:8081}
+    notify: ${NOTIFY_URL:http://localhost:8083}
+    report: ${REPORT_URL:http://localhost:8084}
+    audit: ${AUDIT_URL:http://localhost:8085}

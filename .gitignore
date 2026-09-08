@@ -1,0 +1,32 @@
+﻿# Angular / Node
+**/node_modules/
+**/dist/
+**/.angular/
+**/.cache/
+
+# Java / Gradle
+**/.gradle/
+**/build/
+**/target/
+**/out/
+
+# IDE
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Variables y secretos
+**/.env
+**/.env.*
+!**/.env.example
+
+# Llaves
+*.pem
+*.key
