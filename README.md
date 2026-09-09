@@ -1,4 +1,4 @@
-# Urban-Kicks 👟
+# Urban-Kicks 
 
 Proyecto de tienda de zapatillas.
 
